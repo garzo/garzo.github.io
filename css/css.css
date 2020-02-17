@@ -1,0 +1,44 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #B3DDF2;
+}
+
+a { 
+    color: #ff0000;
+    text-decoration: none;
+    padding: 40px;
+ }
+header, article { margin: 50px; }
+h1 {
+    font-size:calc(32px + 10vw);
+    letter-spacing: -0.1em;
+    margin: 0;
+    color: #fff;
+    line-height: .8em;
+}
+
+h2 {
+    font-size:calc(5px + 5vw);
+    letter-spacing: -0.08em;
+    margin: 0; margin-top: -5%;
+}
+
+p { 
+    font-size:calc(8px + 2vw);
+    line-height: 1.5em;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bolder;
+    color: #708090;
+}
+
+.chicka-chickaaaaaaaaa {
+    margin-top: 3500px;
+}
+p.yeet_tweet { margin-top: 50px; font-size: calc(3px + 2vw); float: right; display: block;}
+
+iframe { 
+    width: 100%; 
+    height: calc(100vw/1.77);
+
+}
