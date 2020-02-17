@@ -1,7 +1,7 @@
 body {
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    background:  url('https://i.imgur.com/lRMFz48.png') #B3DDF2;
+    background: url('https://i.imgur.com/lRMFz48.png') #B3DDF2;
     background-repeat: no-repeat;
     background-position: bottom left;
     height: 100%
@@ -19,17 +19,17 @@ a {
 header, article { margin: 50px; z-index: auto }
 
 #words { position: relative; height: auto; z-index: 1 }
-#goback { position: absolute; z-index: 3; margin: 0; padding: 0 }
+#goback { position: absolute; z-index: 3; margin: 0; padding: 0;  }
 h1 {
     font-size:calc(32px + 10vw);
     letter-spacing: -0.1em;
     margin: 0;
-    color: #eee;
+    color: #fff;
     line-height: .8em;
 }
 
 h2 {
-    font-size:calc(5px + 5vw);
+    font-size:calc(10px + 5vw);
     letter-spacing: -0.08em;
     margin: 0; margin-top: -3.5%;
 }
@@ -49,12 +49,13 @@ p {
 }
 
 p.yeet_tweet { 
-
+    position: absolute;
     font-size: calc(3px + 2vw); 
-    float: left; 
-    display: block;
     z-index: 2;
     float: right;
+    top: 0;
+    right: 0;
+    padding: 20px
 }
 
 iframe { 
@@ -63,7 +64,6 @@ iframe {
     padding-top: 500px;
 
 }
-
 
 
 #gohome { 
