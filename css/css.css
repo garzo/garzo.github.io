@@ -4,6 +4,8 @@ body {
     background: url('https://i.imgur.com/lRMFz48.png') #B3DDF2;
     background-repeat: no-repeat;
     background-position: bottom left;
+    background-attachment: fixed;
+    background-size: auto;
     height: 100%
 }
 
