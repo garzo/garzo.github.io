@@ -7,7 +7,9 @@ body {
 
 .wrap { 
     height: 100%;
-    margin-bottom:-25px
+    margin-bottom:-25px;
+    position: relative;
+    top: 0;
 }
 a { 
     color: #ff0000;
@@ -62,9 +64,10 @@ iframe {
 }
 
 #cheese_doodle {
-    position: -webkit-sticky-;
-    position: sticky;
-    bottom: 10px;
+    position: relative;
+    height: auto;
+    bottom: 0;
+    left: 0;
     z-index: 2;
 }
 
