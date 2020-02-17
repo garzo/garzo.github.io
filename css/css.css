@@ -50,7 +50,7 @@ p {
 
 p.yeet_tweet { 
     position: absolute;
-    font-size: calc(3px + 2vw); 
+    font-size: calc(3px + 3vw); 
     z-index: 2;
     float: right;
     top: 0;
