@@ -53,7 +53,7 @@ p.yeet_tweet {
     font-size: calc(3px + 3vw); 
     z-index: 2;
     float: right;
-    top: 0;
+    bottom: 0;
     right: 0;
     padding: 20px
 }
